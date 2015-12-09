@@ -1,0 +1,184 @@
+<!--template taken from http://startbootstrap.com/template-overviews/clean-blog/ -->
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Footblog</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/clean-blog.min.css" rel="stylesheet">
+
+
+
+</head>
+
+<body>
+    
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="Home.html">Footblog</a>
+            </div>
+            	<div id="tfheader">
+		<form id="tfnewsearch" method="get" action="https://www.google.ie/?gws_rd=cr,ssl&ei=IlJnVv31A8emsgG96pvoAg">
+		        <input type="text" class="tftextinput" name="q" size="21" maxlength="120"><input type="submit" value="search" class="tfbutton">
+		</form>
+		
+
+	<div class="tfclear"></div>
+	</div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="Home.html">Homepage</a>
+                    </li>
+                    <li>
+                        <a href="about.html">About us</a>
+                    </li>
+					<li>
+                        <a href="contact.html">Contact Us</a>
+                    </li>
+                    <li>
+                        <a href="post.html">Premier league</a>
+                    </li>
+                    
+					<li>
+                        <a href="new 1.html">Championship</a>
+                    </li>
+					<li>
+                        <a href="new 2.html">Europe</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Set background image -->
+    <header class="intro-header" style="background-image: url('img/p4.jpg')">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <div class="page-heading">
+                        <h1>About Us</h1>
+                        <hr class="small">
+                        <span class="subheading">This is the place to go for your English football needs</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+         <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2381.696299692018!2d-6.245314384658714!3d53.34869248223729!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sie!4v1449609731468" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                <p>We are located in the IFSC in Dublin, Drop in anytime!</p>
+    <!-- Main Content -->
+    
+                <p>We are a group of football fans dedicated to providing news on the latest games from the Premier League, the Championship and the European competitions, our focus for Europe is also on the English sides seeing how they fair outside of their home comforts.</p>
+                <p>Robbie is here to give his knowledge on the Premier League, a religious follower of the top division, his favourite team being Man United and he is here to tell you the ins and outs of the league</p>
+                <p>Daire knows all about the championship and he likes to go in depth on individual games, Daire is our betting man and the one to follow if you need a tip, he will tell you who is in form in the league and who to avoid like the plague.</p>
+                <p>Dale is the man for European football, he follows the English sides to see how they fair in Europes top competitions, as well as this he has a keen following of the premier league and the other top divisions in Europe to see who will be in the competitions next year. </p>
+
+
+
+<div id="id01"></div>
+<script>
+
+var myArray = [
+{
+"display": "The Premier League",
+"url": "post.html"
+},
+{
+"display": "The championship",
+"url": "new 1.html"
+},
+{
+"display": "Champions League/ Europa League",
+"url": "new 2.html"
+}
+];
+
+myFunction(myArray);
+
+function myFunction(arr) {
+    var out = "";
+    var i;
+    for(i = 0; i < arr.length; i++) {
+        out += '<a href="' + arr[i].url + '">' + 
+        arr[i].display + '</a><br>';
+    }
+    document.getElementById("id01").innerHTML = out;
+}
+</script>
+            </div>
+        </div>
+    </div>
+    
+
+    <hr>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <ul class="list-inline text-center">
+                        <li>
+                            <a href="#">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+                    <p class="copyright text-muted">Copyright &copy; Your Website 2014</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+</body>
+
+</html>

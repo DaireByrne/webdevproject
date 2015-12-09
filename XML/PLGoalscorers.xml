@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<twenty_goals>
+
+    <record>
+        <fname>Luis</fname>
+        <lname>Suarez</lname>
+        <team>Liverpool</team>
+        <season>13/14</season>
+        <matches_to_twenty_goals>15</matches_to_twenty_goals>
+    </record>
+    
+    <record>
+        <fname>Kevin</fname>
+        <lname>Phillips</lname>
+        <team>Sunderland</team>
+        <season>99/00</season>
+        <matches_to_twenty_goals>21</matches_to_twenty_goals>
+    </record>
+    
+    <record>
+        <fname>Alan</fname>
+        <lname>Shearer</lname>
+        <team>Blackburn</team>
+        <season>93/94</season>
+        <matches_to_twenty_goals>22</matches_to_twenty_goals>
+    </record>
+    
+    <record>
+        <fname>Alan</fname>
+        <lname>Shearer</lname>
+        <team>Blackburn</team>
+        <season>94/95</season>
+        <matches_to_twenty_goals>22</matches_to_twenty_goals>
+    </record>
+    
+    <record>
+        <fname>Alan</fname>
+        <lname>Shearer</lname>
+        <team>Newcastle</team>
+        <season>96/97</season>
+        <matches_to_twenty_goals>22</matches_to_twenty_goals>
+    </record>
+    
+    <record>
+        <fname>Andy</fname>
+        <lname>Cole</lname>
+        <team>Newcastle</team>
+        <season>93/94</season>
+        <matches_to_twenty_goals>23</matches_to_twenty_goals>
+    </record>
+    
+    <record>
+        <fname>Cristiano</fname>
+        <lname>Ronaldo</lname>
+        <team>Man Utd</team>
+        <season>07/08</season>
+        <matches_to_twenty_goals>23</matches_to_twenty_goals>
+    </record>
+    
+    <record>
+        <fname>Les</fname>
+        <lname>Ferdinand</lname>
+        <team>Newcastle</team>
+        <season>95/96</season>
+        <matches_to_twenty_goals>23</matches_to_twenty_goals>
+    </record>
+    
+    <record>
+        <fname>Robbie</fname>
+        <lname>Fowler</lname>
+        <team>Liverpool</team>
+        <season>94/95</season>
+        <matches_to_twenty_goals>23</matches_to_twenty_goals>
+    </record>
+    
+    <record>
+        <fname>Robbie</fname>
+        <lname>Fowler</lname>
+        <team>Liverpool</team>
+        <season>95/96</season>
+        <matches_to_twenty_goals>23</matches_to_twenty_goals>
+    </record>
+    
+    <record>
+        <fname>Wayne</fname>
+        <lname>Rooney</lname>
+        <team>Man Utd</team>
+        <season>09/10</season>
+        <matches_to_twenty_goals>23</matches_to_twenty_goals>
+    </record>
+    
+    <record>
+        <fname>Alan</fname>
+        <lname>Shearer</lname>
+        <team>Blackburn</team>
+        <season>95/96</season>
+        <matches_to_twenty_goals>23</matches_to_twenty_goals>
+    </record>
+    
+    <record>
+        <fname>Daniel</fname>
+        <lname>Sturridge</lname>
+        <team>Liverpool</team>
+        <season>13/14</season>
+        <matches_to_twenty_goals>23</matches_to_twenty_goals>
+    </record>
+
+</twenty_goals>
+
+<!-- Code taken from http://www.w3schools.com/xml/xml_xsl.asp -->

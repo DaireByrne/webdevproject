@@ -1,0 +1,6 @@
+<!-- Original code found from http://startbootstrap.com/template-overviews/clean-blog/ -->
+<!-- champions league groups pictures from http://www.uefa.com/uefachampionsleague/season=2016/standings/ -->
+<!-- europa league pictures found from http://www.uefa.com/uefaeuropaleague/season=2016/standings/index.html -->
+<!-- background images found via https://www.google.ie/imghp -->
+<!-- other code found/changed/altered from www.w3schools.com/ -->
+<!-- Some code has been referenced were it is written -->

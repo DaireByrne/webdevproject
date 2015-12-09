@@ -1,0 +1,239 @@
+<!--template taken from http://startbootstrap.com/template-overviews/clean-blog/ -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <script type="text/javascript">
+  function showAlert() { 
+    alert ("Welcome to our page");
+  }
+  
+  </script>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Footblog</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/clean-blog.min.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+<body onload="showAlert()">
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+ 
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="Home.html">Footblog</a>
+            </div>
+            	<div id="tfheader">
+		<form id="tfnewsearch" method="get" action="https://www.google.ie/?gws_rd=cr,ssl&ei=IlJnVv31A8emsgG96pvoAg">
+		        <input type="text" class="tftextinput" name="q" size="21" maxlength="120"><input type="submit" value="search" class="tfbutton">
+		</form>
+		
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="Home.html">Homepage</a>
+                    </li>
+                    <li>
+                        <a href="about.html">About Us</a>
+                    </li>
+					<li>
+                        <a href="contact.html">Contact us</a>
+                    </li>
+                    <li>
+                        <a href="post.html">Premier league</a>
+                    </li>
+                    
+					<li>
+                        <a href="new 1.html">Championship</a>
+                    </li>
+					<li>
+                        <a href="new 2.html">Europe</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Page Header -->
+    <!-- Set your background image for this header on the line below. -->
+    <header class="intro-header" style="background-image: url('img/p6.jpg')">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <div class="site-heading">
+                        <h1>Footblog</h1>
+                        <hr class="small">
+                        <span class="subheading"><blockquote><font color="white">"To win you have to score one more goal than your opponent" - Johan Cruyff</blockquote></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+
+    <!-- Main Content -->
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <div class="post-preview">
+                    <a href="post.html">
+                        <h2 class="post-title">
+                            The Premier League
+                        </h2>
+                        <h3 class="post-subtitle">
+                            Jamie Vardys Having A Party
+                        </h3>
+                    </a>
+                    <p class="post-meta">Posted by <a href="#">Robert Farrell</a> on December 3, 2015</p>
+                </div>
+                <hr>
+                <div class="post-preview">
+                    <a href="new 1.html">
+                        <h2 class="post-title">
+                            The championship
+                        </h2>
+                        <h3 class="post-subtitle">
+                            How we think the latest promoted sides are doing as well as who we think will be promoted next year and how the season will go
+                        </h3>
+                    </a>
+                    <p class="post-meta">Posted by <a href="#">Daire Byrne</a> on December 3, 2015</p>
+                </div>
+                <hr>
+                <div class="post-preview">
+                    <a href="new 2.html">
+                        <h2 class="post-title">
+                            Our View on the European competitions
+                        </h2>
+                        <h3 class="post-subtitle">
+                            This is currently how the British sides are getting on and how we think they will get on for the rest of the season
+                        </h3>
+                    </a>
+                    <p class="post-meta">Posted by <a href="#">Dale Byrne</a> on December 3, 2015</p>
+                </div>
+                <hr>
+                
+           <!-- code gotten from https://msdn.microsoft.com/en-us/library/hh920769(v=vs.85).aspx   -->
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge"> <!-- For intranet testing only, remove in production. -->
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+  <title>Slide Show</title>
+  <style>
+    #slideShowImages { /* The following CSS rules are optional. */
+      border: 1px gray solid;
+      background-color: lightgray;
+    }   
+  
+    #slideShowImages img { /* The following CSS rules are optional. */
+      border: 0.8em black solid;
+      padding: 3px;
+    }   
+  </style>
+</head>
+<p>This is a slideshow going from the sides currently in the champions league places in the premier league (Leicester, Arsenal, Man City, Man United) all the way to the sides in the relegation places of the championship (Charlton, Rotherham, Bolton) and all of the important places in between.</p>
+<body>
+  <div id="slideShowImages">
+    <img src="img/top4.JPG" alt="Slide 1" />
+    <img src="img/5to7.JPG" alt="Slide 2" />
+    <img src="img/releg.JPG" alt="Slide 3" />    
+    <img src="img/promo.JPG" alt="Slide 4" />
+    <img src="img/playoff.JPG" alt="Slide 5" />
+    <img src="img/crele.JPG" alt="Slide 6" />
+  </div>  
+  <button id="slideShowButton"></button> <!-- Optional button element. -->
+  <script src="js/slideShow.js"></script>
+</body>
+
+
+<!-- <h1>My First JavaScript</h1>
+
+<button type="button"
+onclick="document.getElementById('demo').innerHTML = Date()">
+Click me to display Date and Time.</button>
+
+<p id="demo"></p>
+ -->
+
+
+
+
+ 
+
+
+                
+                <hr>
+                <!-- Pager -->
+                <ul class="pager">
+                    <li class="next">
+                        <a href="#">Return to top &rarr;</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <hr>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                    <ul class="list-inline text-center">
+                        <li>
+                            <a href="#">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+                    <p class="copyright text-muted">Copyright &copy; Your Website 2014</p>
+                </div>
+            </div>
+        </div>
+        
+    </footer>
+
+
+</body>
+
+</html>
